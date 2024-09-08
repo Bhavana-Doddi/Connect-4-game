@@ -1,0 +1,33 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+}
+#board
+{
+    height:540px;
+    width:630px;
+    background-color:pink;
+    border:10px solid palevioletred;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+.tile
+{
+    height:70px;
+    width:70px;
+    background-color:white;
+    margin:5px;
+    border-radius:50%;
+    border:5px solid palevioletred;
+
+}
+.red-piece
+{
+    background-color:black;
+    
+}
+.yellow-piece
+{
+        background-color:rgb(241, 225, 5);
+}
